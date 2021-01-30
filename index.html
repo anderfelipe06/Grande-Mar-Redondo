@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grande Mar Redondo</title>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<meta http-equiv="content-language" content="pt-BR">
+	<meta name="author" content="Anderson Oliveira">
+	<meta name="description" content="Grande Mar Redondo: Site de história e turismo do município de Paranaguá/PR.">
+	<meta name="keywords" content="história, turismo, Paranaguá">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body onload="exibirSlide()">
+
+	<!-- Cabeçalho -->
+	<header>
+
+			<!-- Rede Social -->
+			<nav id="topo">
+				<ul>
+					<li><a class="icone" href="#" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+				</ul>
+
+			</nav>
+
+			<!-- Logo -->
+			<div id="logo">
+				<img src="imagens/inicial/logo.png">
+			</div>
+
+	</header>
+
+	<!-- Menu de navegação -->
+	<nav id="menu">
+		<ul>
+			<li><a class="icone" href="index.html"><i class="fa fa-home"></i></a></li>
+			<li><a class="ancora" href="historia/historia.html">História</a></li>
+			<li><a class="ancora" href="galeria/galeria.html">Galeria</a></li>
+			<li><a class="icone" href="contato/contato.html"><i class="fa fa-envelope"></i></a></li>
+		</ul>
+	</nav>
+
+	<!-- Banner Rotativo -->
+	<section id="banner">
+
+		<div id="b1">
+			<img src="imagens/inicial/bemvindo.png">
+			<p class="bannerTexto">Bem Vindo</p>
+
+		</div>
+
+		<div id="b2">
+			<a href="destaques/unespar-evento.html" target="_self">
+				<img src="imagens/inicial/unespar.png">
+				<p class="bannerTexto">Seminário UNESPAR</p>
+			</a>
+		</div>
+
+		<div id="b3">
+				<img src="imagens/inicial/caranguejo.jpg">
+			<p class="bannerTexto">Festa do Caranguejo</p>
+		</div> 
+
+			<a class="anterior" onmouseover="pararSlide()" onclick="anteriorSlide()">&#10094;</a>
+			<a class="proximo" onmouseover="pararSlide()" onclick="proximoSlide()">&#10095;</a>
+	</section>
+
+	<!-- Painel -->
+
+	<header id="cabPainel">
+		<p>
+			DESTAQUES
+		</p>
+	</header>
+
+	<section id="fundoPainel">
+
+		<div class="painel">
+			<div class="item">
+				<a href="destaques/calendario.html" target="_blank">
+					<img src="imagens/inicial/eventos.jpg">
+				</a>
+				<p>Calendário de Eventos</p>
+			</div>
+
+			<div class="item">
+				<a href="https://emersonpedroso1984.wixsite.com/caicaraparanaense" target="_blank">
+					<img src="imagens/inicial/culinaria.png">
+				</a>
+				<p>Culinária Caiçara</p>
+			</div>
+
+			<div class="item">
+				<a href="destaques/mapas.html" target="_blank">
+					<img src="imagens/inicial/mapa.jpg">
+				</a>
+				<p>Mapas</p>
+			</div>
+
+		</div>
+
+		<div class="painel">
+			<div class="item">
+				<a href="destaques/uteis.html" target="_blank">
+					<img src="imagens/inicial/telefones.jpg">
+				</a>
+				<p>Telefone Utéis</p>
+			</div>
+
+			<div class="item">
+				<a href="http://www.paranagua.pr.gov.br/" target="_blank">
+					<img src="imagens/inicial/prefeitura.jpg">
+				</a>
+				<p>Prefeitura de Paranaguá</p>
+			</div>
+
+			<div class="item">
+				<a href="destaques/videos.html" target="_blank">
+					<img src="imagens/inicial/videos.jpg">
+				</a>
+				<p>Vídeos</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Rodapé -->
+
+	<footer id="rodape">
+		<p>
+			Copyleft <span class="copy-left">&copy</span>
+			<script>document.write(new Date().getFullYear())</script>
+			<a href = "index.html" >Grande Mar Redondo</a>
+		</p>
+	</footer>
+
+</body>
+</html>
